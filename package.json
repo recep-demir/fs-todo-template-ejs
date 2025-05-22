@@ -1,8 +1,20 @@
 {
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "sequelize": "^6.37.7",
-    "sqlite3": "^5.1.7"
-  }
+   "name": "fs-todo-template-ejs",
+   "version": "1.0.0",
+   "description": "A simple todo app using EJS and SQLite",
+   "author": "Recep Demir",
+   "license": "MIT",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+   },
+   "dependencies": {
+      "dotenv": "^16.5.0",
+      "ejs": "^3.1.10",
+      "express": "^5.1.0",
+      "sequelize": "^6.37.7",
+      "sqlite3": "^5.1.7"
+   }
 }
